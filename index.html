@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Controverse : Dessalement de l’eau</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background-color: #f0f9ff;
+color: #1b4f72;
+}
+
+header {
+background-color: #1b4f72;
+color: white;
+padding: 30px 20px;
+text-align: center;
+position: relative;
+}
+
+header img.logo {
+position: absolute;
+top: 10px;
+left: 10px;
+height: 50px;
+}
+
+nav {
+background-color: #145a86;
+display: flex;
+justify-content: center;
+padding: 10px;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 20px;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+section {
+max-width: 1000px;
+margin: auto;
+padding: 60px 20px;
+}
+
+h1, h2 {
+color: #145a86;
+border-bottom: 2px solid #a7d7f4;
+padding-bottom: 5px;
+}
+
+.intro-img {
+text-align: center;
+}
+
+.intro-img img {
+width: 80%;
+max-width: 600px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.arguments {
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.colonne {
+flex: 1;
+min-width: 280px;
+background-color: #e3f6ff;
+padding: 20px;
+border-radius: 8px;
+border-left: 6px solid #1b4f72;
+}
+
+.acteur {
+background-color: #d8f2ff;
+padding: 15px;
+border-left: 4px solid #4da6ff;
+margin-bottom: 15px;
+border-radius: 6px;
+}
+
+.source-list {
+font-size: 0.95em;
+}
+
+footer {
+background-color: #1b4f72;
+color: white;
+padding: 30px 20px;
+text-align: center;
+position: relative;
+}
+
+footer img.logo {
+position: absolute;
+top: 10px;
+right: 10px;
+height: 50px;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+img.carte-acteurs {
+max-width: 100%;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(0,0,0,0.15);
+margin: 20px 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="IMG_0117.jpeg" alt="Logo ESIEE Paris" class="logo">
+<h1>Le dessalement de l’eau : solution durable ou gouffre énergétique ?</h1>
+</header>
+
+<nav>
+<a href="#presentation">Présentation</a>
+<a href="#arguments">Arguments</a>
+<a href="#acteurs">Acteurs</a>
+<a href="#conclusion">Conclusion</a>
+<a href="#sources">Sources</a>
+</nav>
+
+<section id="presentation">
+<h1>Présentation</h1>
+<p>
+Le dessalement est une technologie visant à transformer l’eau de mer en eau potable.
+Utilisée principalement dans les zones en stress hydrique, elle soulève néanmoins de nombreuses controverses :
+consommation énergétique, rejet de saumure, inégalités d’accès à l’eau, coût élevé…
+Ce site explore les enjeux scientifiques, économiques et politiques de cette technologie.
+</p>
+<div class="intro-img">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Desalination_plant.svg/1024px-Desalination_plant.svg.png" alt="Schéma de dessalement de l’eau">
+</div>
+</section>
+
+<section id="arguments">
+<h1>Arguments pour / contre & Points de friction</h1>
+<div class="arguments">
+<div class="colonne">
+<h2>✅ Pour</h2>
+<ul>
+<li>Fournit de l’eau potable dans les régions arides</li>
+<li>Fonctionne toute l’année, indépendamment du climat</li>
+<li>Peut être alimenté par des énergies renouvelables</li>
+<li>Nouvelles technologies plus économes</li>
+</ul>
+</div>
+<div class="colonne">
+<h2>❌ Contre</h2>
+<ul>
+<li>Très énergivore (surtout pour l’osmose inverse)</li>
+<li>Rejet de saumure nocif pour les écosystèmes marins</li>
+<li>Coûts de construction et d’entretien très élevés</li>
+<li>Non accessible aux pays pauvres</li>
+</ul>
+</div>
+</div>
+
+<h2 style="margin-top: 40px;"⚠️ Points de friction</h2>
+<ul>
+<li><strong>Environnement :</strong> Rejets salins et produits chimiques</li>
+<li><strong>Économie :</strong> Investissement coûteux et rentabilité discutée</li>
+<li><strong>Énergie :</strong> Forte consommation, dépendance aux énergies fossiles</li>
+<li><strong>Inégalités :</strong> Technologies réservées aux pays riches</li>
+<li><strong>Infrastructure :</strong> Besoin d’équipements lourds et de réseaux</li>
+</ul>
+</section>
+
+<section id="acteurs">
+<h1>Acteurs & Positionnements</h1>
+<img src="IMG_0116.jpeg" alt="Carte des acteurs" class="carte-acteurs">
+
+<div class="acteur">
+<strong>France Nature Environnement</strong> – Opposée : dénonce les effets sur la biodiversité et le coût énergétique.
+</div>
+<div class="acteur">
+<strong>Surfrider Foundation Europe</strong> – Opposée : rejets de saumure, mobilisation citoyenne.
+</div>
+<div class="acteur">
+<strong>Veolia / SUEZ / IDE Technologies</strong> – Favorables : solutions technologiques durables.
+</div>
+<div class="acteur">
+<strong>Ministères et États du Golfe, Maroc, Australie</strong> – Très favorables, pour des raisons vitales et stratégiques.
+</div>
+<div class="acteur">
+<strong>ONG humanitaires (WaterAid, Food & Water Watch…)</strong> – Opposées pour inégalité d’accès à l’eau.
+</div>
+</section>
+
+<section id="conclusion">
+<h1>Conclusion</h1>
+<p>
+Le dessalement est une réponse technologique pertinente à la raréfaction de l’eau douce,
+mais il doit être intégré dans une stratégie globale de gestion durable des ressources.
+Ses impacts environnementaux et son coût élevé en font une solution à manier avec précaution.
+Il s’impose dans certains contextes (zones arides, îles, pays riches) mais n’est pas universel.
+</p>
+</section>
+
+<section id="sources">
+<h1>Sources</h1>
+<ul class="source-list">
+<li><a href="https://reporterre.net/Dessaler-l-eau-de-mer-fausse-solution-vraie-catastrophe-ecologique" target="_blank">Reporterre</a></li>
+<li><a href="https://ecotoxicologie.fr/impacts-dessalement-eau-mer" target="_blank">Ecotoxicologie.fr</a></li>
+<li><a href="https://www.veolia.com/fr/solutions/dessalement-eau-mer" target="_blank">Veolia</a></li>
+<li><a href="https://news.mit.edu/2023/desalination-system-could-produce-freshwater-cheaper-0927" target="_blank">MIT</a></li>
+<li><a href="https://controverses-esiee.fr" target="_blank">Controverses ESIEE</a></li>
+</ul>
+</section>
+
+<footer>
+Réalisé par Alaric Scheer, Hector Rondeau, Joey Younes, Baptiste Saint-Ourens – ESIEE 2025
+<img src="IMG_0117.jpeg" alt="Logo ESIEE" class="logo">
+</footer>
+
+</body>
+</html>
